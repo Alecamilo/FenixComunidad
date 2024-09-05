@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alejandro Camilo Orjuela Marciales">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,663&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagen/jpg" href="/Img/24032024132341_3463.png">
+</head>
+<body>
+  <video id="background-video" autoplay muted loop>
+    <source src="Img/227691_medium.mp4" type="video/mp4">
+    <source src="/Img/227691_medium.mp4" type="video/ogg">
+  </video>
+  <div id="dv">
+  <h1 class='logo'>
+    FENIX
+    <span>Comunidad</span>
+  </h1>
+  <input class='planet7' id='uranus' name='planet' type='radio'>
+  <label class='uranus menu' for='uranus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Fenix
+      </h2>
+      <h3>$10000</h3>
+    </div>
+  </label>
+  <input class='planet6' id='saturn' name='planet' type='radio'>
+  <label class='saturn menu' for='saturn'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Diamante 
+      </h2>
+      <h3>$5000</h3>
+    </div>
+  </label>
+  <input class='planet5' id='jupiter' name='planet' type='radio'>
+  <label class='jupiter menu' for='jupiter'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Platino
+      </h2>
+      <h3>$2500</h3>
+    </div>
+  </label>
+  <input checked='checked' class='planet4' id='mars' name='planet' type='radio'>
+  <label class='menu mars' for='mars'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Oro
+      </h2>
+      <h3>$800</h3>
+    </div>
+  </label>
+  <input checked='checked' class='planet3' id='earth' name='planet' type='radio'>
+  <label class='menu earth' for='earth'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Plata
+      </h2>
+      <h3>$200</h3>
+    </div>
+  </label>
+  <input checked='checked' class='planet2' id='venus' name='planet' type='radio'>
+  <label class='menu venus' for='venus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Bronce
+      </h2>
+      <h3>$50</h3>
+    </div>
+  </label>
+  <input checked='checked' class='planet1' id='mercury' name='planet' type='radio'>
+  <label class='menu mercury' for='mercury'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Acero
+      </h2>
+      <h3>$25</h3>
+    </div>
+  </label>
+  <div class='solar'>
+    <div class='solar_systm'>
+      <div class='planet mercury'>
+        <div class='planet_description mercury'>
+          <h1></h1>
+          <h1>DONACION $25 USD</h1>
+          <label for='readMercury'>
+            <a>
+              ACERO
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet venus'>
+        <div class='planet_description venus'>
+          <h1></h1>
+          <h1>DONACION $50 USD</h1>
+          <p></p>
+          <label for='readVenus'>
+            <a>
+              BRONCE
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet earth'>
+        <div class='moon moon'>
+          <h3>Moon</h3>
+          <h2>Moon</h2>
+        </div>
+        <div class='trajectory m'></div>
+        <div class='planet_description earth'>
+          <h1></h1>
+          <h1>DONACION $200</h1>
+          <label for='readEarth'>
+            <a>
+              PLATA
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet mars'>
+        <div class='moon deimos'>
+          <h3>Moon</h3>
+          <h2>Deimos</h2>
+        </div>
+        <div class='trajectory d'></div>
+        <div class='moon phoebos'>
+          <h3>Moon</h3>
+          <h2>Phoebos</h2>
+        </div>
+        <div class='trajectory p'></div>
+        <div class='planet_description mars'>
+          <h1></h1>
+          <h1>DONACION $800</h1>
+          <label for='readMars'>
+            <a>
+              ORO
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet jupiter'>
+        <div class='moon lo'>
+          <h3>Moon</h3>
+          <h2>Io</h2>
+        </div>
+        <div class='moon europa'>
+          <h3>Moon</h3>
+          <h2>Europa</h2>
+        </div>
+        <div class='moon ganymede'>
+          <h3>Moon</h3>
+          <h2>Ganymede</h2>
+        </div>
+        <div class='trajectory lop'></div>
+        <div class='trajectory eu'></div>
+        <div class='trajectory ga'></div>
+        <div class='planet_description jupiter'>
+          <h1></h1>
+          <h1>DONACION $2500</h1>
+          <label for='readJupiter'>
+            <a>
+              PLATINO
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet saturn'>
+        <div class='moon titan'>
+          <h3>Moon</h3>
+          <h2>Titan</h2>
+        </div>
+        <div class='moon dione'>
+          <h3>Moon</h3>
+          <h2>Dione</h2>
+        </div>
+        <div class='moon enceladus'>
+          <h3>Moon</h3>
+          <h2>Enceladus</h2>
+        </div>
+        <div class='trajectory ti'></div>
+        <div class='trajectory di'></div>
+        <div class='trajectory enc'></div>
+        <div class='planet_description saturn'>
+          <h1></h1>
+          <h1>DONACION $5000</h1>
+          <label for='readSaturn'>
+            <a>
+              DIAMANTE
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet uranus'>
+        <div class='moon miranda'>
+          <h3>Moon</h3>
+          <h2>Miranda</h2>
+        </div>
+        <div class='moon ariel'>
+          <h3>Moon</h3>
+          <h2>Ariel</h2>
+        </div>
+        <div class='moon umbriel'>
+          <h3>Moon</h3>
+          <h2>Umbriel</h2> 
+        </div>
+        <div class='trajectory mir'></div>
+        <div class='trajectory ari'></div>
+        <div class='trajectory umb'></div>
+        <div class='planet_description uranus'>
+          <h1></h1>
+          <h1>DONACION $10000</h1>
+          <label for='readUranus'>
+            <a>
+              FENIX
+              <span></span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  </div>
+    <input class='read' id='readMercury' name='mercuryRead' type='radio'>
+    <label class='closeBig' for='closeMercury'></label>
+    <input class='read' id='closeMercury' name='mercuryRead' type='radio'>
+    <div class='panel'>
+      <h1>ACERO</h1>
+      <img src="Img/Captura de pantalla 2024-09-03 192927.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$80 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/Imagen de WhatsApp -Photoroom.png">
+      <h2>PAGAR POR NIVEL BRONCE</h2>
+      <img src="Img/1 PASO.png">
+      <p>$50 USD</p>
+      <br>
+    </div>
+    <input class='read' id='readVenus' name='venusRead' type='radio'>
+    <label class='closeBig' for='closeVenus'></label>
+    <input class='read' id='closeVenus' name='venusRead' type='radio'>
+    <div class='panel'>
+      <h1>BRONCE</h1>
+      <img src="Img/1 PASO.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$400 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0006-Photoroom.png">
+      <h2>PAGAR POR NIVEL PLATA</h2>
+      <img src="Img/PLATA2.png">
+      <p>$200 USD</p>
+      <br>
+      <br>
+    </div>
+    <input class='read' id='readEarth' name='earthRead' type='radio'>
+    <label class='closeBig' for='closeEarth'></label>
+    <input class='read' id='closeEarth' name='earthRead' type='radio'>
+    <div class='panel'>
+      <h1>PLATA</h1>
+      <img src="Img/PLATA2.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$1.600 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0005-Photoroom.png">
+      <h2>PAGAR POR NIVEL ORO</h2>
+      <img src="Img/ORO3.png">
+      <p>$800 USD</p>
+      <br>
+    </div>
+    <input class='read' id='readMars' name='marsRead' type='radio'>
+    <label class='closeBig' for='closeMars'></label>
+    <input class='read' id='closeMars' name='marsRead' type='radio'>
+    <div class='panel'>
+      <h1>ORO</h1>
+      <img src="Img/ORO3.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$6.400 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0003-Photoroom.png">
+      <h2>PAGAR POR NIVEL PLATINO</h2>
+      <img src="Img/PLATINO4.png">
+      <p>$2.500 USD</p>
+      <br>
+    </div>
+    <input class='read' id='readJupiter' name='jupiterRead' type='radio'>
+    <label class='closeBig' for='closeJupiter'></label>
+    <input class='read' id='closeJupiter' name='jupiterRead' type='radio'>
+    <div class='panel'>
+      <h1>PLATINO</h1>
+      <img src="Img/PLATINO4.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$20.000 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0002-Photoroom.png">
+      <h2>PAGAR POR NIVEL DIAMANTE</h2>
+      <img src="Img/DIAMENTE5.png">
+      <p>$5.000 USD</p>
+      <br>
+    </div>
+    <input class='read' id='readSaturn' name='saturnRead' type='radio'>
+    <label class='closeBig' for='closeSaturn'></label>
+    <input class='read' id='closeSaturn' name='saturnRead' type='radio'>
+    <div class='panel'>
+      <h1>DIAMANTE</h1>
+      <img src="Img/DIAMENTE5.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$40.000 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0001-Photoroom.png">
+      <h2>PAGAR POR NIVEL FENIX</h2>
+      <img src="Img/FENIX6.png">
+      <p>$10.000 USD</p>
+      <br>
+    </div>
+    <input class='read' id='readUranus' name='uranusRead' type='radio'>
+    <label class='closeBig' for='closeUranus'></label>
+    <input class='read' id='closeUranus' name='uranusRead' type='radio'>
+    <div class='panel'>
+      <h1>FENIX</h1>
+      <img src="Img/FENIX6.png">
+      <h2>1.GANA DE TABLERO Y EUROS</h2>
+      <p>$80.000 USD</p>
+      <img src="Img/icono-vectorial-realista-corona-dorada-rey-o-reina-aislada-fondo-blanco.png">
+      <h2>2.AHORRO</h2>
+      <img width="320" height="240" src="Img/IMG-20240905-WA0004-Photoroom.png">
+      <h2>REINICIO A NIVEL BRONCE</h2>
+      <img src="Img/1 PASO.png">
+      <p>$50 USD</p>
+      <br>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
+
+
+
+  
